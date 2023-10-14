@@ -1,0 +1,10 @@
+package basic;
+
+//3Streams 
+public class First {
+	public static void main(String[] args) {
+		System.out.println("hello java");
+		System.out.println("hello\t\t java again");
+		System.out.println("hello again");
+	}
+}

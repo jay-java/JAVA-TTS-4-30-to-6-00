@@ -1,0 +1,10 @@
+package basic;
+
+//2 : Types
+//Primitive-> byte,short,int,long,float,double,boolean,char
+//Non-> String ,array,class
+public class P001_DataTypes {
+	public static void main(String[] args) {
+		
+	}
+}
