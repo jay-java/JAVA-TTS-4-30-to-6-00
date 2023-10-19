@@ -1,0 +1,32 @@
+package basic;
+
+/*1.simple if
+ * 2.if else
+ * 3.nested if
+ * 4.else if ladder
+ * 5.switch case
+ * */
+public class P004_CondiionalStatements {
+	public static void main(String[] args) {
+		int a = 10, b = 20;
+		if (a > b) {
+			System.out.println("a is grater than b");
+		} else {
+			System.out.println("b is greater than a");
+		}
+
+		int age = 2;
+		if (age > 18) {
+			if (age < 60) {
+				System.out.println("eligible");
+			} else {
+				System.out.println("age is greater than 18 but not less than 60");
+			}
+		} else {
+			System.out.println("age is less than 18");
+		}
+
+		int m = 45;
+		
+	}
+}

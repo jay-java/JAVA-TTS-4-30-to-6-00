@@ -1,0 +1,7 @@
+package basic;
+
+public class P004_CondiionalStatements {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package basic;
+
+import java.util.Scanner;
+
+public class P002_TypeCast {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	}
+}
