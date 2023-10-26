@@ -1,0 +1,9 @@
+package basic;
+class Cons{
+	
+}
+public class P009_Constructor {
+	public static void main(String[] args) {
+		
+	}
+}

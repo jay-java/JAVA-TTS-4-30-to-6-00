@@ -1,0 +1,22 @@
+package basic;
+class Cons{
+	int i;
+	Cons(){
+		System.out.println("default cons");
+	}
+	Cons(int i){
+		System.out.println("int cons"+i);
+	}
+	Cons(int i,int j){
+		System.out.println("int cons"+i);
+	}
+	Cons(String name){
+		System.out.println("default cons "+name);
+	}
+	
+}
+public class P009_Constructor {
+	public static void main(String[] args) {
+		Cons c = new Cons(12);
+	}
+}
