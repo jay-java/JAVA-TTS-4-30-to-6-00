@@ -1,0 +1,9 @@
+package basic;
+class Student{
+	int id;
+}
+public class P010_StaticKeyword {
+	public static void main(String[] args) {
+		
+	}
+}

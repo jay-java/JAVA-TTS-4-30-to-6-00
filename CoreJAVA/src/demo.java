@@ -3,6 +3,9 @@ class abc{
 		System.out.println("hello main abc class");
 	}
 }
+class A{
+	
+}
 public class demo {
 	public static void main(String[] args) {
 		System.out.println("hello main class");
