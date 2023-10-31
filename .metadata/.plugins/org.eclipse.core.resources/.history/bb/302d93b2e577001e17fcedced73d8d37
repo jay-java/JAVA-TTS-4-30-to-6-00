@@ -1,0 +1,10 @@
+package basic;
+abstract class RBI{
+	abstract public void SA();//abstract function
+	abstract public void CA();
+}
+public class P014_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

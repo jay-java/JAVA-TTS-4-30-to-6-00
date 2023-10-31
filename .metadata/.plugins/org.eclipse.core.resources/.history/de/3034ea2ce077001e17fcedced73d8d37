@@ -1,0 +1,16 @@
+package basic;
+class Parent2{
+	public void call() {
+		System.out.println("call function in Parent Class");
+	}
+}
+class Child{
+	public void call() {
+		System.out.println("call function in Parent Class");
+	}
+}
+public class P013_Overriding {
+	public static void main(String[] args) {
+		
+	}
+}
