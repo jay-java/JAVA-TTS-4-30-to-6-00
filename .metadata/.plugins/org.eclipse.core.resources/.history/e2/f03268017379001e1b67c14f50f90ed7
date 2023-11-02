@@ -1,0 +1,18 @@
+package basic;
+
+class hello{
+	final int i=1;
+	public void change() {
+//		i++;
+		System.out.println(i);
+	}
+}
+class hello2 extends hello{
+	
+}
+public class P015_Final {
+	public static void main(String[] args) {
+		hello h = new hello();
+		h.change();
+	}
+}

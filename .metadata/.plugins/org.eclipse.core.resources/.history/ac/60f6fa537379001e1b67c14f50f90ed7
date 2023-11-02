@@ -1,0 +1,14 @@
+package basic;
+class Employee{
+	int id;
+	String name;
+	double salary;
+	Employee(){
+		
+	}
+}
+public class P016_Encapsulation {
+	public static void main(String[] args) {
+		
+	}
+}

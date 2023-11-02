@@ -1,0 +1,9 @@
+package basic;
+class InterCall{
+	
+}
+public class P017_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

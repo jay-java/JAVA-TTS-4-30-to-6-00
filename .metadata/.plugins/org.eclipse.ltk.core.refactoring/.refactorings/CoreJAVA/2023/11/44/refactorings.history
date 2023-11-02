@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basic.P015_Encapsulation&apos; to &apos;P016_Encapsulation&apos;&#x0D;&#x0A;- Original project: &apos;CoreJAVA&apos;&#x0D;&#x0A;- Original element: &apos;basic.P015_Encapsulation&apos;&#x0D;&#x0A;- Renamed element: &apos;basic.P016_Encapsulation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;P015_Encapsulation&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;basic{P015_Encapsulation.java[P015_Encapsulation" matchStrategy="1" name="P016_Encapsulation" qualified="false" references="true" similarDeclarations="false" stamp="1698924303995" textual="false" version="1.0"/>
+</session>
