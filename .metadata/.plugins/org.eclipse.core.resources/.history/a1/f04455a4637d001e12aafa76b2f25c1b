@@ -1,0 +1,19 @@
+package basic;
+
+import java.util.Scanner;
+
+public class P018_Exception {
+	public static void main(String[] args) {
+		try {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("enter i = ");
+			int i = sc.nextInt();
+			System.out.println("enter j = ");
+			int j = sc.nextInt();
+			int k = i/j;
+			System.out.println(k);
+		} catch (ArithmeticException e) {
+			e.printStackTrace();
+		}
+	}
+}

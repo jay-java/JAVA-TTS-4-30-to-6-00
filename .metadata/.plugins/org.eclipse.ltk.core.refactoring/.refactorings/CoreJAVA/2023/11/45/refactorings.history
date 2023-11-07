@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basic.P020Serialization&apos; to &apos;P020_Serialization&apos;&#x0D;&#x0A;- Original project: &apos;CoreJAVA&apos;&#x0D;&#x0A;- Original element: &apos;basic.P020Serialization&apos;&#x0D;&#x0A;- Renamed element: &apos;basic.P020_Serialization&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;P020Serialization&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;basic{P020Serialization.java[P020Serialization" matchStrategy="1" name="P020_Serialization" qualified="false" references="true" similarDeclarations="false" stamp="1699360424632" textual="false" version="1.0"/>
+</session>

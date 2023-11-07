@@ -1,0 +1,16 @@
+package basic;
+class User{
+	int id;
+	String name;
+	double sal;
+	public User(int id,String name,double sal) {
+		this.id=id;
+		this.name=name;
+		this.sal=sal;
+	}
+}
+public class P020Serialization {
+	public static void main(String[] args) {
+		User u1 = new User(1, "java", 23345453.343)
+;	}
+}

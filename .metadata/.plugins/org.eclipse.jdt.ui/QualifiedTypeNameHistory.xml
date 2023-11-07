@@ -12,4 +12,7 @@
     <fullyQualifiedTypeName name="basic.Child"/>
     <fullyQualifiedTypeName name="basic.SBI"/>
     <fullyQualifiedTypeName name="basic.JAVA"/>
+    <fullyQualifiedTypeName name="basic.hello"/>
+    <fullyQualifiedTypeName name="basic.Employee"/>
+    <fullyQualifiedTypeName name="basic.InterCall"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+package basic;
+
+public class P018_Exception {
+	public static void main(String[] args) {
+		
+	}
+}

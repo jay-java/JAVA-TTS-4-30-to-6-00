@@ -1,0 +1,14 @@
+package basic;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class P019_FileOutputInputStream {
+	public static void main(String[] args) throws IOException {
+		String msg = "this is file handling by file input output stream";
+		FileOutputStream fos = new FileOutputStream("t1.txt");
+		byte[] b  =msg.getBytes();
+		fos.write(b);
+		fos.flush();
+	}
+}

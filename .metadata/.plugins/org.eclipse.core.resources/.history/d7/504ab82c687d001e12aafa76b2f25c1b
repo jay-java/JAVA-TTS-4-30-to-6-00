@@ -1,0 +1,11 @@
+package basic;
+class User{
+	int id;
+	String name;
+	double value;
+}
+public class P020Serialization {
+	public static void main(String[] args) {
+		
+	}
+}
