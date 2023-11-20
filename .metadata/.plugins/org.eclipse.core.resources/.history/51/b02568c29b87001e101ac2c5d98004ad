@@ -1,0 +1,9 @@
+package basic;
+
+import java.util.List;
+//<generics>
+public class P022_List {
+	public static void main(String[] args) {
+		List<E>
+	}
+}

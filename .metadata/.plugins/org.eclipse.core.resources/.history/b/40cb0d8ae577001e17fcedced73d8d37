@@ -1,9 +1,0 @@
-package basic;
-class RBI{
-	abstract public void SA();//abstract function
-}
-public class P014_Abstraction {
-	public static void main(String[] args) {
-		
-	}
-}

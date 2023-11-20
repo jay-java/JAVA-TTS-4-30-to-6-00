@@ -1,0 +1,20 @@
+package basic;
+class Users{
+	int id;
+	String name;
+	String address;
+	long con;
+	public Users(int id, String name, String address, long con) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.con = con;
+	}
+	
+}
+public class P023_listPractical {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package basic;
+class Users{
+	
+}
+public class P023_listPractical {
+	public static void main(String[] args) {
+		
+	}
+}

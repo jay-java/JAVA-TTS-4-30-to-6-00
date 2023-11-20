@@ -1,9 +1,0 @@
-package basic;
-class Parent2{
-	
-}
-public class P013_Overriding {
-	public static void main(String[] args) {
-		
-	}
-}

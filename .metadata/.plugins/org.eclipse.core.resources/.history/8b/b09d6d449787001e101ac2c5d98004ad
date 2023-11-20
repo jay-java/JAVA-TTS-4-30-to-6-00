@@ -1,0 +1,7 @@
+package basic;
+
+public class P021_Thread {
+	public static void main(String[] args) {
+		
+	}
+}
