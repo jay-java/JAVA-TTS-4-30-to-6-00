@@ -1,8 +1,0 @@
-package basic;
-
-public class P019_FileOutputInputStream {
-	public static void main(String[] args) {
-		String msg = "this is file handling by file input output stream";
-		
-	}
-}

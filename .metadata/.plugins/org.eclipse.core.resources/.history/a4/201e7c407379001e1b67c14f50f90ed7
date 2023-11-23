@@ -1,7 +1,0 @@
-package basic;
-
-public class P016_Encapsulation {
-	public static void main(String[] args) {
-		
-	}
-}
