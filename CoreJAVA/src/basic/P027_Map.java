@@ -14,7 +14,7 @@ public class P027_Map {
 		map.put(2,"c++");
 		map.put(3, "java");
 		map.put(4, "python");
-//		map.put(null, "php");
+		map.put(null, "php");
 		System.out.println(map);
 		Set set = map.entrySet();
 		Iterator itr = set.iterator();
@@ -31,7 +31,12 @@ public class P027_Map {
 		if(map.containsKey(u_name)) {
 			System.out.println("enter your pass : ");
 			String pass = sc.next();
-			
+			if(map.get(u_name).equals(pass)) {
+				System.out.println("correct");
+			}
+			else {
+				System.out.println("password incorrect");
+			}
 		}
 		else {
 			System.out.println("username not exist : Do you want to Add ? ");

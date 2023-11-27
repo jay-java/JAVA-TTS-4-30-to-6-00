@@ -1,0 +1,9 @@
+package basic;
+class SwingDemo{
+	public SwingDemo() {
+		
+	}
+}
+public class P029_Swing {
+
+}
