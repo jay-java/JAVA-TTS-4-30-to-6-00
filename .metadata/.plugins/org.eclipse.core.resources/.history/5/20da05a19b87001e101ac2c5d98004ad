@@ -1,7 +1,0 @@
-package basic;
-
-public class P022_Lisdt {
-	public static void main(String[] args) {
-		
-	}
-}
