@@ -1,7 +1,0 @@
-package basic;
-
-public class P026_TreeSet {
-	public static void main(String[] args) {
-		
-	}
-}
