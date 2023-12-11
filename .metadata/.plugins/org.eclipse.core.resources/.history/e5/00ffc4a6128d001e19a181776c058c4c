@@ -1,7 +1,0 @@
-package basic;
-
-public class P028_HashTable {
-	public static void main(String[] args) {
-		
-	}
-}
