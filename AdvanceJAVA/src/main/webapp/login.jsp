@@ -10,14 +10,23 @@
 	<%-- <%scriplets %> --%>
 	<%
 	String msg = (String) request.getAttribute("msg");
-
 	if (msg != null) {
-
 		out.print(msg);
-
 	}
 	%>
-	<form action="" method="post">
+	<%
+	String msg1 = (String) request.getAttribute("msg1");
+	if (msg1 != null) {
+		out.print(msg1);
+	}
+	%>
+	<%
+	String msg2 = (String) request.getAttribute("msg2");
+	if (msg2 != null) {
+		out.print(msg2);
+	}
+	%>
+	<form action="UserController" method="post">
 		<table>
 			<tr>
 				<td>Email :</td>
