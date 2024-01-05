@@ -120,6 +120,30 @@ public class SellerController extends HttpServlet {
 				request.getRequestDispatcher("serviceman-verify-otp.jsp").forward(request, response);
 			}
 		}
+		else if(action.equalsIgnoreCase("verify")) {
+			String email = request.getParameter("email");
+			int otp1 = Integer.parseInt(request.getParameter("otp1"));
+			int otp2 = Integer.parseInt(request.getParameter("otp2"));
+			if(otp1 == otp2) {
+				request.setAttribute("email", email);
+				request.getRequestDispatcher("serviceman-new-pass.jsp").forward(request, response);
+			}
+			else {
+				request.setAttribute("email", email);
+				request.setAttribute("otp", otp1);
+				request.setAttribute("msg", "OTP mot matched");
+				request.getRequestDispatcher("serviceman-verify-otp.jsp").forward(request, response);
+			}
+		}
+		else if(action.equalsIgnoreCase("new pass")) {
+			String email = request.getParameter("email");
+			String np = request.getParameter("np");
+			String cnp = request.getParameter("cnp");
+			if(np.equals(cnp)) {
+				SellerDao.newPassword(email, np);
+				response.sendRedirect("seller-login.jsp");
+			}
+		}
 	}
 
 }
