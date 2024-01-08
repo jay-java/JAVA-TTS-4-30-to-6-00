@@ -47,8 +47,6 @@
     <fullyQualifiedTypeName name="dao.UserDao"/>
     <fullyQualifiedTypeName name="model.Seller"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="dao.SellerDao"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="javax.mail.Session"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="javax.mail.Transport"/>
     <fullyQualifiedTypeName name="javax.mail.MessagingException"/>
     <fullyQualifiedTypeName name="services.Servicess"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="dao.SellerDao"/>
 </qualifiedTypeNameHistroy>
