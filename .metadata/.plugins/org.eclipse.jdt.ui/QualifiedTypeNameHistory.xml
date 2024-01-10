@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="basic.SBI"/>
-    <fullyQualifiedTypeName name="basic.JAVA"/>
-    <fullyQualifiedTypeName name="basic.hello"/>
-    <fullyQualifiedTypeName name="basic.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="basic.Divide"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -40,9 +35,6 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="connection.DBConnection"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="model.User"/>
     <fullyQualifiedTypeName name="dao.UserDao"/>
     <fullyQualifiedTypeName name="model.Seller"/>
@@ -58,6 +50,14 @@
     <fullyQualifiedTypeName name="javax.mail.Transport"/>
     <fullyQualifiedTypeName name="javax.mail.MessagingException"/>
     <fullyQualifiedTypeName name="services.Servicess"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="dao.SellerDao"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.MultipartConfig"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="model.Product"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="connection.DBConnection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="dao.ProductDao"/>
 </qualifiedTypeNameHistroy>

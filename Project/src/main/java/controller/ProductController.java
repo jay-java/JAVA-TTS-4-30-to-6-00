@@ -2,6 +2,8 @@ package controller;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
@@ -60,6 +62,7 @@ public class ProductController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String action  = request.getParameter("action");
+		PrintWriter out = response.getWriter();
 		if(action.equalsIgnoreCase("upload")) {
 			String savePath = "C:\\Users\\jay-pc\\JAVA TTS 4-30 to 6-00\\Project\\src\\main\\webapp\\image";   
 			File fileSaveDir=new File(savePath);
@@ -87,6 +90,9 @@ public class ProductController extends HttpServlet {
 	        System.out.println(p);
 	        ProductDao.uploadProduct(p);
 	        response.sendRedirect("seller-home.jsp");
+		}
+		else if(action.equalsIgnoreCase("update")) {
+			
 		}
 	}
 
