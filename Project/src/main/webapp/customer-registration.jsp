@@ -16,35 +16,35 @@
             <div class="col-lg-7 mb-5">
                 <div class="contact-form bg-light p-30">
                     <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <form name="sentMessage" action="CustomerController" method="post">
                         <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name"
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
                                 required="required" data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                          <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Contact"
+                            <input type="text" class="form-control" id="name" name="contact" placeholder="Your Contact"
                                 required="required" data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                          <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Address"
+                            <input type="text" class="form-control" id="name" name="address" placeholder="Your Address"
                                 required="required" data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                          
                         <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email"
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
                                 required="required" data-validation-required-message="Please enter your email" />
                             <p class="help-block text-danger"></p>
                         </div>
                        <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Password"
+                            <input type="text" class="form-control" id="name" name="password" placeholder="Your Password"
                                 required="required" data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
-                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Register
+                            <button class="btn btn-primary py-2 px-4" type="submit" name="action" value="register" id="sendMessageButton">Register
                                 </button>
                         </div>
                     </form>
