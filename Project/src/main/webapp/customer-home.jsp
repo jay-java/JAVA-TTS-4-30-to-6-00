@@ -26,9 +26,9 @@
 					<div class="product-img position-relative overflow-hidden">
 						<img class="img-fluid w-100" src="image/<%=p.getImage() %>" alt="">
 						<div class="product-action">
-							<a class="btn btn-outline-dark btn-square" href="WishlistController?action=addtowishlist&pid=<%=p.getPid()%>&cid=<%=s.getId()%>"><i
+							<a class="btn btn-outline-dark btn-square" href="c-single-product.jsp?id=<%=p.getPid()%>"><i
 								class="fa fa-shopping-cart"></i></a>
-							<a class="btn btn-outline-dark btn-square" href=""><i
+							<a class="btn btn-outline-dark btn-square" href="c-single-product.jsp?id=<%=p.getPid()%>"><i
 								class="far fa-heart"></i></a> 
 						</div>
 					</div>

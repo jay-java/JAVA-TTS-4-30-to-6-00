@@ -1,3 +1,6 @@
+<%@page import="dao.WishListDao"%>
+<%@page import="model.WishList"%>
+<%@page import="java.util.List"%>
 <%@page import="model.Customer"%>
 <%@page import="model.Seller"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -104,7 +107,8 @@ else{
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <a href="" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
-                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                                <%List<WishList> wlist = WishListDao.getWishListByCusId(s.getId());%>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;"><%out.print(wlist.size()); %></span>
                             </a>
                             <a href="" class="btn px-0 ml-3">
                                 <i class="fas fa-shopping-cart text-primary"></i>

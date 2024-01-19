@@ -6,6 +6,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="Product Name Goes Here"/>
 		<list key="findhistory">
+			<item value="FEATURED PRODUCTS"/>
 			<item value="Product Name Goes Here"/>
 		</list>
 		<list key="replacehistory">

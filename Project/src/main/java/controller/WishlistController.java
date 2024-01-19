@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.ProductDao;
+import dao.WishListDao;
 import model.Product;
 import model.WishList;
 
@@ -43,7 +44,8 @@ public class WishlistController extends HttpServlet {
 			w.setPname(p.getPname());
 			w.setPcategory(p.getPcategory());
 			w.setPdesc(p.getPdesc());
-			
+			WishListDao.insertWishList(w);
+			response.sendRedirect("customer-home.jsp");
 		}
 	}
 
