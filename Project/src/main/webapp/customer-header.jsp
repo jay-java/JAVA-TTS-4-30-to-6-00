@@ -105,7 +105,7 @@ else{
                              
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
-                            <a href="" class="btn px-0">
+                            <a href="wishlist.jsp" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
                                 <%List<WishList> wlist = WishListDao.getWishListByCusId(s.getId());%>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;"><%out.print(wlist.size()); %></span>
