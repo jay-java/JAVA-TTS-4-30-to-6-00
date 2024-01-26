@@ -46,7 +46,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
-                           <a class="btn btn-success" href="#">Add To Cart</a><br><br>
+                           <a class="btn btn-success" href="CartController?action=addtocart&pid=<%=p.getPid()%>&cid=<%=s.getId()%>">Add To Cart</a><br><br>
 								<%boolean flag = WishListDao.checkItem(p.getPid(), s.getId()); %>
 								<%if(flag == false){ %>
 								<a class="btn btn-success" href="WishlistController?action=addtowishlist&pid=<%=p.getPid()%>&cid=<%=s.getId()%>">Add to WishList</a>
