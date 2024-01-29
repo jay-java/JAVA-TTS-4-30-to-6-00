@@ -48,6 +48,7 @@
 							<th>Products</th>
 							<th>Price</th>
 							<th>Quantity</th>
+							<th>Total Price</th>
 							<th>Remove</th>
 						</tr>
 					</thead>
@@ -61,21 +62,14 @@
 							<td class="align-middle">Rs. <%=c.getPprice() %></td>
 							<td class="align-middle">
 								<div class="input-group quantity mx-auto" style="width: 100px;">
-									<div class="input-group-btn">
-										<button class="btn btn-sm btn-primary btn-minus">
-											<i class="fa fa-minus"></i>
-										</button>
-									</div>
-									<input type="text"
-										class="form-control form-control-sm bg-secondary border-0 text-center"
-										value="1">
-									<div class="input-group-btn">
-										<button class="btn btn-sm btn-primary btn-plus">
-											<i class="fa fa-plus"></i>
-										</button>
-									</div>
+									<form action="CartController" method="post" name="form">
+										<input type="hidden" name="cartid" value="<%=c.getCart_id()%>">
+										<input type="hidden" name="pprice" value="<%=c.getPprice()%>">
+										<input type="number" name="qty" value="<%=c.getQty()%>" onchange="this.form.submit();">
+									</form>
 								</div>
 							</td>
+							<td class="align-middle">Rs. <%=c.getTotal_amount() %></td>
 							<td class="align-middle"><a href="remove-from-cart.jsp?id=<%=c.getCart_id() %>"
 									class="btn btn-sm btn-danger">
 									<i class="fa fa-times"></i>

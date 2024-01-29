@@ -57,8 +57,15 @@ public class CartController extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		int cartId = Integer.parseInt(request.getParameter("cartid"));
+		int pprice = Integer.parseInt(request.getParameter("pprice"));
+		int qty = Integer.parseInt(request.getParameter("qty"));
+		Cart c = new Cart();
+		c.setCart_id(cartId);
+		c.setQty(qty);
+		c.setTotal_amount(qty*pprice);
+		CartDao.updateCart(c);
+		response.sendRedirect("cart.jsp");
 	}
 
 }
