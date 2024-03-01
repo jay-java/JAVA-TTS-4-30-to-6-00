@@ -11,8 +11,9 @@ public class App {
 		Session session = sf.openSession();
 		Transaction tx = session.beginTransaction();
 
-		User u1 = new User(3, "java", 987654321, "ahmedabad", "java@gmail.com", "java@123");
-		session.save(u1);
+		User u1 = new User();
+		User u= session.get(User.class, 2);
+		System.out.println(u);
 		tx.commit();
 		session.close();
 		sf.close();
