@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean class="collection.User" name="u2">
+		<property name="id" value="2"/>
+		<property name="name" value="python"/>
+		<property name="contact">
+			<list>
+				<value>987654</value>
+				<value>987654</value>
+				<value>987654</value>
+			</list>
+		</property>
+		<property name="names">
+			<set>
+				<value>abc</value>
+				<value>def</value>
+				<value>ghi</value>
+			</set>
+		</property>
+		<property name="maps">
+			<map>
+				<entry key="1" value="java"/>
+				<entry key="2" value="python"/>
+			</map>
+		</property>
+	</bean>
+
+</beans>
