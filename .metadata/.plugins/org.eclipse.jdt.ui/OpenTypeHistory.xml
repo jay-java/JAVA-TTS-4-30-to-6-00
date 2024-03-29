@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=HibernateCore/C:\/Users\/jay-pc\/.m2\/repository\/org\/jboss\/spec\/javax\/transaction\/jboss-transaction-api_1.2_spec\/1.1.1.Final\/jboss-transaction-api_1.2_spec-1.1.1.Final.jar=/maven.pomderived=/true=/=/javadoc_location=/jar:file:\/C:\/Users\/jay-pc\/.m2\/repository\/org\/jboss\/spec\/javax\/transaction\/jboss-transaction-api_1.2_spec\/1.1.1.Final\/jboss-transaction-api_1.2_spec-1.1.1.Final-javadoc.jar\!\/=/=/maven.groupId=/org.jboss.spec.javax.transaction=/=/maven.artifactId=/jboss-transaction-api_1.2_spec=/=/maven.version=/1.1.1.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;javax.transaction(TransactionManager.class[TransactionManager" modifiers="1537" timestamp="1694683166189"/>
+</typeInfoHistroy>
