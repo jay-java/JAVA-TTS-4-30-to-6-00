@@ -8,5 +8,7 @@
 </head>
 <body>
 hello index page
+<h1><a href="home">Home</a></h1>
+<h1><a href="register">Register</a></h1>
 </body>
 </html>

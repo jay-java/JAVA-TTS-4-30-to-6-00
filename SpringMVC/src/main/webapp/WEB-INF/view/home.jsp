@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,10 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	welcome home page
-	<%int id  = (Integer)request.getAttribute("id"); %>
-	<%out.print(id);%>
-	<%String name = (String)request.getAttribute("name"); %>
-	<%out.print(name); %>
+home
+
 </body>
 </html>
