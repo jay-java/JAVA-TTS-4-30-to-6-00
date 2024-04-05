@@ -21,7 +21,7 @@
 <body>
 	<h1 class ="text-center">Hello, world!</h1>
 	<div class ="container">
-	<form action="add" method="post">
+	<form action="${pageContext.request.contextPath}/add" method="post">
 		<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">
 				Id</label> <input type="text" name="id" value="${u.id }" class="form-control"
@@ -60,6 +60,7 @@
 		
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
+	
 	</div>
 	<!-- Optional JavaScript; choose one of the two! -->
 

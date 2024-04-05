@@ -50,6 +50,7 @@
 			</c:forEach>
 		</tbody>
 	</table>
+	<h1><a href="register">Add New User</a></h1>
 	<!-- Optional JavaScript; choose one of the two! -->
 
 	<!-- Option 1: Bootstrap Bundle with Popper -->

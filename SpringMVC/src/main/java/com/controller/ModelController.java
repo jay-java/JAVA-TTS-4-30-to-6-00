@@ -31,8 +31,8 @@ public class ModelController{
 	@RequestMapping(value="/add",method = RequestMethod.POST)
 	
 //	@RequestParam String name,@RequestParam long contact;
-	public String fetchFormData(@ModelAttribute User u,Model m) {
-		System.out.println(u);
+	public String fetchFormData(@ModelAttribute User u,Model m,HttpServletRequest request) {
+		System.out.println("updated : "+u);
 		dao.inserOrUpdatetUser(u);
 		List<User> list = dao.getAllUsers();
 		m.addAttribute("list", list);
@@ -42,7 +42,6 @@ public class ModelController{
 //		System.out.println(name+contact);
 		
 	}
-	
 	
 	@RequestMapping("/home")
 	public String home(Model m) {
